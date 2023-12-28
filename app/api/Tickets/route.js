@@ -16,6 +16,7 @@ export async function POST(req) {
     }
   }
 
+
 export async function GET() {
     try {
         const tickets = await Ticket.find();
